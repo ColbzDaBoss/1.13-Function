@@ -1,7 +1,7 @@
 say Building: Please wait :)
 
 fill ~-1 ~ ~1 ~-26 ~9 ~26 bricks
-fill ~-2 ~1 ~2 ~25 ~8 ~25 air
+fill ~-2 ~1 ~2 ~-25 ~8 ~25 air
 fill ~-1 ~ ~1 ~-26 ~ ~26 oak_planks
 fill ~-2 ~10 ~2 ~-25 ~10 ~25 black_stained_glass
 setblock ~-25 ~1 ~25 crafting_table
@@ -28,10 +28,7 @@ fill ~-18 ~ ~4 ~-18 ~-4 ~4 ladder
 setblock ~-23 ~-4 ~4 enchanting_table
 setblock ~-23 ~-3 ~3 oak_button
 setblock ~-23 ~-3 ~5 oak_button
-setblock ~-23 ~-2 ~3 sign 0 replace {Text1:"Press for:",Text2:"64 Lapis"}
-setblock ~-23 ~-2 ~5 sign 0 replace {Text1:"Press for:",Text2:"64 Books"}
 setblock ~-23 ~-3 ~1 command_block replace {Command:"give @p book 64"}
 setblock ~-23 ~-3 ~7 command_block replace {Command:"give @p lapis_lazuli 64"}
-setblock ~-12 ~ ~ sign 0 replace {Text1:"Welcome To:",Text2:"Colby's Brick House",Text3:":)"}
 
 say Done building!!! Enjoy :)
